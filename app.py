@@ -31,7 +31,7 @@ background-color: rgba(0, 0, 0, 0.7);
 """
 st.markdown(page_bg_img, unsafe_allow_html=True)
 models = {
-    'diabetes': pickle.load(open('Models/diabetes_model.pkl', 'rb')),
+    'diabetes': pickle.load(open('models/diabetes_model.pkl', 'rb')),
     'heart_disease': pickle.load(open('models/heart_disease_model.pkl', 'rb')),
     'lung_cancer': pickle.load(open('models/lung_cancer_model.pkl', 'rb')),
     'hypo_thyroid': pickle.load(open('models/thyroid_model.pkl', 'rb')),
