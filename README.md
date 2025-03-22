@@ -14,10 +14,9 @@ The **Medical Diagnosis System** is an AI-powered application designed to assist
 ## 🛠️ Tech Stack
 ```yaml
 Frontend: Streamlit (Python-based UI framework)
-Backend: Python (Streamlit for UI and API handling)
+Backend: Python
 Machine Learning: Scikit-Learn, Pandas, NumPy
-Database: SQLite/MySQL (if storing user history)
-Deployment: Vercel / Heroku / AWS (if applicable)
+Deployment: Vercel / Render
 ```
 
 ## 📖 How to Set Up & Run
