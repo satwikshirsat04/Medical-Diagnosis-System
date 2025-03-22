@@ -24,7 +24,7 @@ Deployment: Vercel / Heroku / AWS (if applicable)
 
 ### 1️⃣ Clone the Repository
 ```bash
-[git clone https://github.com/your-username/Medical-Diagnosis-System.git](https://github.com/satwikshirsat04/Medical-Diagnosis-System.git)
+git clone https://github.com/satwikshirsat04/Medical-Diagnosis-System.git
 cd Medical-Diagnosis-System
 ```
 
