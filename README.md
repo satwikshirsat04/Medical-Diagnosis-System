@@ -54,9 +54,9 @@ http://localhost:8501/
 
 ## 📊 Model Details
 ```yaml
-Algorithm Used: Random Forest / Decision Tree / Logistic Regression (mention your model)
-Training Dataset: Sourced from Kaggle / UCI Repository
-Accuracy: XX% (mention the accuracy of your model)
+Algorithm Used: Random Forest / Decision Tree / Logistic Regression / SVM
+Training Dataset: Sourced from Kaggle
+Accuracy: Overall 96%
 Evaluation Metrics: Precision, Recall, F1-score
 ```
 
@@ -72,13 +72,4 @@ Evaluation Metrics: Precision, Recall, F1-score
 ```yaml
 Feel free to contribute by submitting issues or pull requests.
 ```
-
-## 📜 License
-```yaml
-This project is licensed under the MIT License.
-```
-
----
-
-🔹 **Developed by [Your Name]**
 
