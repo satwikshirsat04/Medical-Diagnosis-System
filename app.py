@@ -5,7 +5,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 # Change Name & Logo
-st.set_page_config(page_title="Disease Prediction", page_icon="⚕️")
+st.set_page_config(page_title="🔬 AI Powered Medical Diagnostic System", page_icon="⚕️")
 
 background_image_url = "https://i.pinimg.com/736x/3c/6c/77/3c6c77a1de91ac21aacb64ec32140e3b.jpg"
 page_bg_img = f"""
@@ -31,7 +31,7 @@ background-color: rgba(0, 0, 0, 0.7);
 """
 st.markdown(page_bg_img, unsafe_allow_html=True)
 models = {
-    'diabetes': pickle.load(open('Models/diabetes_model.pkl', 'rb')),
+    'diabetes': pickle.load(open('models/diabetes_model.pkl', 'rb')),
     'heart_disease': pickle.load(open('models/heart_disease_model.pkl', 'rb')),
     'lung_cancer': pickle.load(open('models/lung_cancer_model.pkl', 'rb')),
     'hypo_thyroid': pickle.load(open('models/thyroid_model.pkl', 'rb')),
