@@ -40,7 +40,9 @@ streamlit run app.py
 ### 4️⃣ Access the Web Interface
 After running the command, Streamlit will automatically open a web page, or you can manually open:
 ```bash
-http://localhost:8501/
+Local URL: http://localhost:8501
+Network URL: http://10.214.18.107:8501
+External URL: http://44.226.122.3:8501
 ```
 
 ## 🎯 Usage Guide
