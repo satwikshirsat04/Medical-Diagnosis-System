@@ -5,7 +5,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 # Change Name & Logo
-st.set_page_config(page_title="🔬 AI Powered Medical Diagnostic System", page_icon="⚕️")
+st.set_page_config(page_title="AI Powered Medical Diagnostic System", page_icon="⚕️")
 
 background_image_url = "https://i.pinimg.com/736x/3c/6c/77/3c6c77a1de91ac21aacb64ec32140e3b.jpg"
 page_bg_img = f"""
